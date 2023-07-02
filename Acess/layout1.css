@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'font-text';
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+@font-face {
+    font-family: font-text;
+    src: url(/fontsite/BASKE1.ttf);
+}
+h3{
+    margin: 0;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 138px;
+}
+.header_nav-info{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.75;
+    width: 350px;
+}
+.main{
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+}
+.header_nav--link{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    background-color: #fff;
+    width: 100%;
+    height: 800px;
+}
+.content_AboutMe{
+    height: 100%;
+    padding-left: 15%;
+    padding-right: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content_AboutMe--title{
+    font-size: 2.5rem;
+}
+.content_AboutMe--title h3{
+    font-weight: 100;
+    margin-top: 50px;
+    opacity: 0.5;
+}
+.crossbar{
+    width: 6%;
+    position: relative;
+    border-bottom: 3px solid #7f7f7f ;
+}
+.crossbar-item{
+    position: absolute;
+    left: 40%;
+    background-color: #fff;
+    height: 3px;
+    width: 10px;
+}
+.content_AboutMe--content{
+    font-size: 1.5rem;
+    font-weight: 1;
+    line-height: 40px;
+    opacity: 0.75;
+}
+.content_AboutMe--textone{
+    margin-bottom: 50px;
+}
+.content_Education{
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #bab7b1 ;
+    width: 100%;
+    height: 500px;
+}
+.content_Education--title h3{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #fff;
+}
+.content_Education--content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    line-height: 70px;
+}
+.content_Education--content h4{
+    margin: 0;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.content_Education--content .content_content-year{
+    font-size: 1.2rem;
+    font-style: oblique;
+}
+.content_content-Univarsity{
+    font-size: 1.1rem;
+    font-style: italic;
+}
+.content_Hobby{
+    background-color: aquamarine;
+    width: 100%;
+    height: 300px;
+}
